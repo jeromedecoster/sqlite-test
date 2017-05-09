@@ -1,0 +1,33 @@
+{
+  "name": "sqlite-test",
+  "version": "0.1.0",
+  "description": "sqlite-test",
+  "repository": "jeromedecoster/sqlite-test",
+  "scripts": {
+    "s1": "cd shell && ./01-create-from-shell-script.sh",
+    "s2": "cd shell && ./02-create-from-sql-file.sh",
+    "s3": "cd shell && ./03-create-from-csv-file.sh",
+    "s4": "cd shell && ./04-export-a-sql-dump.sh",
+    "s5": "cd shell && ./05-select-like-glob.sh",
+    "s6": "cd shell && ./06-select-order-by.sh",
+    "s7": "cd shell && ./07-limit-offset.sh",
+    "s8": "cd shell && ./08-functions-group-by.sh",
+    "s9": "cd shell && ./09-join.sh",
+    "s10": "cd shell && ./10-subqueries.sh",
+    "s11": "cd shell && ./11-conditional-result.sh",
+    "s12": "cd shell && ./12-update-delete.sh",
+    "s13": "cd shell && ./13-integrity.sh",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
