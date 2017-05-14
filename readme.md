@@ -9,6 +9,14 @@ npm run s1
 * [script](./shell/01-create-from-shell-script.sh)
 * [output](./shell/01-create-from-shell-script.md)
 
+```
+time run s1
+
+real  0m0.377s
+user  0m0.333s
+sys 0m0.054s
+```
+
 ## 2-create-from-sql-file
 
 ```
@@ -116,3 +124,103 @@ npm run s13
 
 * [script](./shell/13-integrity.sh)
 * [output](./shell/13-integrity.md)
+
+---
+
+# sqlite-test node
+
+## 1-create-from-node-sqlite3
+
+```
+npm run n1
+```
+
+* [script](./node/01-create-from-node-sqlite3.sh)
+* [output](./node/01-create-from-node-sqlite3.md)
+
+```
+time run n1
+
+real  0m0.488s
+user  0m0.438s
+sys 0m0.070s
+```
+
+## 2-create-from-sqlite
+
+```
+npm run n2
+```
+
+* [script](./node/02-create-from-sqlite.sh)
+* [output](./node/02-create-from-sqlite.md)
+
+```
+time run n2
+
+real  0m0.483s
+user  0m0.434s
+sys 0m0.069s
+```
+
+## 3-create-from-sequelize
+
+```
+npm run n3
+```
+
+* [script](./node/03-create-from-sequelize.sh)
+* [output](./node/03-create-from-sequelize.md)
+
+```
+time run n3
+
+real  0m0.702s
+user  0m0.656s
+sys 0m0.084s
+```
+
+## 4-select-like-glob
+
+```
+npm run n4
+```
+
+* [script](./node/04-select-like-glob.sh)
+* [output](./node/04-select-like-glob.md)
+
+## 5-order-by
+
+```
+npm run n5
+```
+
+* [script](./node/05-order-by.sh)
+* [output](./node/05-order-by.md)
+
+## 6-limit-offset
+
+```
+npm run n6
+```
+
+* [script](./node/06-limit-offset.sh)
+* [output](./node/06-limit-offset.md)
+
+## 7-group-by
+
+```
+npm run n7
+```
+
+* [script](./node/07-group-by.sh)
+* [output](./node/07-group-by.md)
+
+## 8-join
+
+```
+npm run n8
+```
+
+* [script](./node/08-join.sh)
+* [output](./node/08-join.md)

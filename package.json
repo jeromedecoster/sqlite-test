@@ -1,6 +1,6 @@
 {
   "name": "sqlite-test",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "sqlite-test",
   "repository": "jeromedecoster/sqlite-test",
   "scripts": {
@@ -17,6 +17,14 @@
     "s11": "cd shell && ./11-conditional-result.sh",
     "s12": "cd shell && ./12-update-delete.sh",
     "s13": "cd shell && ./13-integrity.sh",
+    "n1": "cd node && node ./01-create-from-node-sqlite3.js",
+    "n2": "cd node && node ./02-create-from-sqlite.js",
+    "n3": "cd node && node ./03-create-from-sequelize.js",
+    "n4": "cd node && node ./04-select-like-glob.js",
+    "n5": "cd node && node ./05-order-by.js",
+    "n6": "cd node && node ./06-limit-offset.js",
+    "n7": "cd node && node ./07-group-by.js",
+    "n8": "cd node && node ./08-join.js",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,10 +32,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^1.11.0",
     "rimraf": "^2.6.1"
   },
   "dependencies": {
+    "sequelize": "^3.30.4",
+    "sqlite": "^2.7.0",
     "sqlite3": "^3.1.8"
   }
 }

@@ -14,3 +14,4 @@ shell/create-*.db
 shell/csv-*.csv
 shell/dump-*.sql
 shell/integrity*.db
+node/create-*.db
