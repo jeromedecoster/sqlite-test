@@ -1,6 +1,6 @@
 {
   "name": "sqlite-test",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "sqlite-test",
   "repository": "jeromedecoster/sqlite-test",
   "scripts": {
@@ -25,6 +25,7 @@
     "n6": "cd node && node ./06-limit-offset.js",
     "n7": "cd node && node ./07-group-by.js",
     "n8": "cd node && node ./08-join.js",
+    "n9": "cd node && node ./09-update-delete.js",
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,6 +33,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "easy-table": "^1.1.0",
     "rimraf": "^2.6.1"
   },
   "dependencies": {

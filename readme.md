@@ -135,7 +135,7 @@ npm run s13
 npm run n1
 ```
 
-* [script](./node/01-create-from-node-sqlite3.sh)
+* [script](./node/01-create-from-node-sqlite3.js)
 * [output](./node/01-create-from-node-sqlite3.md)
 
 ```
@@ -152,7 +152,7 @@ sys 0m0.070s
 npm run n2
 ```
 
-* [script](./node/02-create-from-sqlite.sh)
+* [script](./node/02-create-from-sqlite.js)
 * [output](./node/02-create-from-sqlite.md)
 
 ```
@@ -169,7 +169,7 @@ sys 0m0.069s
 npm run n3
 ```
 
-* [script](./node/03-create-from-sequelize.sh)
+* [script](./node/03-create-from-sequelize.js)
 * [output](./node/03-create-from-sequelize.md)
 
 ```
@@ -186,7 +186,7 @@ sys 0m0.084s
 npm run n4
 ```
 
-* [script](./node/04-select-like-glob.sh)
+* [script](./node/04-select-like-glob.js)
 * [output](./node/04-select-like-glob.md)
 
 ## 5-order-by
@@ -195,7 +195,7 @@ npm run n4
 npm run n5
 ```
 
-* [script](./node/05-order-by.sh)
+* [script](./node/05-order-by.js)
 * [output](./node/05-order-by.md)
 
 ## 6-limit-offset
@@ -204,7 +204,7 @@ npm run n5
 npm run n6
 ```
 
-* [script](./node/06-limit-offset.sh)
+* [script](./node/06-limit-offset.js)
 * [output](./node/06-limit-offset.md)
 
 ## 7-group-by
@@ -213,7 +213,7 @@ npm run n6
 npm run n7
 ```
 
-* [script](./node/07-group-by.sh)
+* [script](./node/07-group-by.js)
 * [output](./node/07-group-by.md)
 
 ## 8-join
@@ -222,5 +222,5 @@ npm run n7
 npm run n8
 ```
 
-* [script](./node/08-join.sh)
+* [script](./node/08-join.js)
 * [output](./node/08-join.md)

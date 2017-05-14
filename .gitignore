@@ -13,5 +13,7 @@ npm-debug.log
 shell/create-*.db
 shell/csv-*.csv
 shell/dump-*.sql
+shell/update-*.db
 shell/integrity*.db
 node/create-*.db
+node/update-*.db
